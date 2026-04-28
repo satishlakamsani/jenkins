@@ -8,7 +8,7 @@ pipeline {
         COURSE = "Jenkins"
     }
     options {
-        disableConcurrentBills() 
+        disableConcurrentBuilds() 
     }
     stages {
         stage('Build') {
