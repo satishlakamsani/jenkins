@@ -37,7 +37,7 @@ pipeline {
                 }
             }
         }
-    #post build
+    // post build
     post {
         always {
             echo "I will always says hello again"
