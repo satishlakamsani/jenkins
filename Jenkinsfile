@@ -42,6 +42,12 @@ pipeline {
         always {
             echo "I will always says hello again"
         }
+        success {
+            echo "pipeline success"
+        }
+        failure {
+            echo "pipeline failure"
+        }
     }
 
     }
