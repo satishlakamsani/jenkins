@@ -7,8 +7,8 @@ pipeline {
     environment {
         COURSE = "Jenkins"
     }
-    options {
-        disableConcurrentBuilds() 
+     options {
+        disableConcurrentBuilds()
         timeout(time: 5, unit: 'MINUTES')
     }
     stages {
