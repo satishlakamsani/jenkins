@@ -80,8 +80,9 @@ pipeline {
                     """
                 }
             }
-        
-    // post build
+        }
+    }
+    // post build Jenkins file
     post {
         always {
             echo "I will always says hello again"
@@ -95,5 +96,4 @@ pipeline {
     }
 
     }
-}
-}
+
