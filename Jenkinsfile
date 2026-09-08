@@ -82,7 +82,7 @@ pipeline {
             }
         }
     }
-    // post build Jenkins file update
+    // post build Jenkins file update webhoook
     post {
         always {
             echo "I will always says hello again"
